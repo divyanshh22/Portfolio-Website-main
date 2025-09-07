@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Python",
+        "icon": "https://img.icons8.com/fluency/48/000000/python.png"
+    },
+    {
+        "name": "C++",
+        "icon": "https://img.icons8.com/fluency/48/000000/c-plus-plus-logo.png"
+    },
+    {
+        "name": "Java",
+        "icon": "https://img.icons8.com/color/48/000000/java.png"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "https://img.icons8.com/color/48/000000/javascript.png"
+    },
+    {
+        "name": "Html5",
+        "icon": "https://img.icons8.com/color/48/000000/html.png"
+    },
+    {
+        "name": "CSS",
+        "icon": "https://img.icons8.com/fluency/48/000000/css.png"
+    },
+    {
+        "name": "React.js",
+        "icon": "https://img.icons8.com/fluency/48/000000/react.png"
+    },
+    {
+        "name": "Node.js",
+        "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"
+    },
+    {
+        "name": "Bootstrap",
+        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+    },
+    {
+        "name": "MYSQL",
+        "icon": "https://img.icons8.com/color/48/000000/mysql.png"
+    },
+    {
+        "name": "MongoDB",
+        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+    },
+    {
+        "name": "SQLite",
+        "icon": "https://img.icons8.com/color/48/000000/sql.png"
+    },
+    {
+        "name": "Git",
+        "icon": "https://img.icons8.com/color/48/000000/git.png"
+    },
+    {
+        "name": "GitHub",
+        "icon": "https://img.icons8.com/color/48/000000/github.png"
+    },
+    {
+        "name": "Django",
+        "icon": "https://img.icons8.com/color/48/000000/django.png"
+    },
+    {
+        "name": "Flask",
+        "icon": "https://img.icons8.com/color/48/000000/flask.png"
+    },
+    {
+        "name": "Tkinter",
+        "icon": "https://img.icons8.com/fluency/48/000000/python.png"
+    },
+    {
+        "name": "OpenCV",
+        "icon": "https://img.icons8.com/color/48/000000/opencv.png"
+    },
+    {
+        "name": "VSCode",
+        "icon": "https://img.icons8.com/fluency/48/000000/visual-studio-code-2019.png"
+    },
+    {
+        "name": "PyCharm",
+        "icon": "https://img.icons8.com/color/48/000000/pycharm.png"
+    },
+    {
+        "name": "WordPress",
+        "icon": "https://img.icons8.com/fluency/48/000000/wordpress.png"
+    }
+]
