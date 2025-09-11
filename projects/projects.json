@@ -1,14 +1,21 @@
 [
   {
-    "name": "Resturant Management System",
-    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
-    "image": "notystackandroid",
-    "category": "GUI",
-    "links": {
-      "view": "https://github.com/divyanshh22/Python/blob/main/Restaurant%20Billing%20Management%20System%20Using%20Python%20with%20Tkinter%20(Graphical%20User%20Interface)",
-      "code": "https://github.com/divyanshh22/Python/blob/main/Restaurant%20Billing%20Management%20System%20Using%20Python%20with%20Tkinter%20(Graphical%20User%20Interface)"
-    }
+    "name": "Restaurant Management System",
+    "desc": "Fully fledged Android CRUD app with Firebase & RoomDB.",
+    "img": "images/restaurant.png",
+    "view": "https://divyanshh22.vercel.app/",
+    "code": "https://github.com/divyanshh22/Restaurant-Management-System",
+    "type": "GUI"
   },
+  {
+    "name": "Portfolio Website",
+    "desc": "Personal portfolio built with HTML, CSS, and JS.",
+    "img": "images/portfolio.png",
+    "view": "https://divyanshh22.vercel.app/",
+    "code": "https://github.com/divyanshh22/Portfolio-Website-main",
+    "type": "MERN"
+  },
+
   {
     "name": "Travel Form",
     "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
@@ -92,6 +99,7 @@
   }
 
 ]
+
 
 
 
