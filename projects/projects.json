@@ -9,14 +9,6 @@
       "code": "https://github.com/divyanshh22/Python/blob/main/Restaurant%20Billing%20Management%20System%20Using%20Python%20with%20Tkinter%20(Graphical%20User%20Interface)"
     }
   },
-  {
-    "name": "Portfolio Website",
-    "desc": "Personal portfolio built with HTML, CSS, and JS.",
-    "img": "images/portfolio.png",
-    "view": "https://divyanshh22.vercel.app/",
-    "code": "https://github.com/divyanshh22/Portfolio-Website-main",
-    "type": "MERN"
-  },
 
   {
     "name": "Travel Form",
@@ -101,6 +93,7 @@
   }
 
 ]
+
 
 
 
