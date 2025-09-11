@@ -6,16 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Correct CSS path -->
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="./style.css">
 
   <!-- Font Awesome -->
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- Favicon -->
-  <link id='favicon' rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+  <link id="favicon" rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-png">
 
   <title>Projects | Portfolio Divyansh Singh</title>
 </head>
@@ -23,18 +22,17 @@
 
 <!-- navbar starts -->
 <header>
-  <a href="/" class="logo"><i class="fab fa-node-js"></i> Divyansh</a>
-
+  <a href="../index.html" class="logo"><i class="fab fa-node-js"></i> Divyansh</a>
   <div id="menu" class="fas fa-bars"></div>
   <nav class="navbar">
     <ul>
-      <li><a href="/#home">Home</a></li>
-      <li><a href="/#about">About</a></li>
-      <li><a href="/#skills">Skills</a></li>
-      <li><a href="/#education">Education</a></li>
-      <li><a class="active" href="/#work">Work</a></li>
-      <li><a href="/#experience">Experience</a></li>
-      <li><a href="/#contact">Contact</a></li>
+      <li><a href="../index.html#home">Home</a></li>
+      <li><a href="../index.html#about">About</a></li>
+      <li><a href="../index.html#skills">Skills</a></li>
+      <li><a href="../index.html#education">Education</a></li>
+      <li><a class="active" href="../index.html#work">Work</a></li>
+      <li><a href="../index.html#experience">Experience</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
     </ul>
   </nav>
 </header>
@@ -52,48 +50,12 @@
     <button class="btn" data-filter=".gui">GUI</button>
   </div>
 
-  <div class="box-container">
-
-    <!-- Example Project 1 -->
-    <div class="box tilt gui">
-      <img src="assets/images/projects/agecalc.PNG" alt="Age Calculator">
-      <div class="content">
-        <div class="tag">
-          <h3>Age Calculator</h3>
-        </div>
-        <div class="desc">
-          <p>A GUI-based project to calculate age from date of birth.</p>
-          <div class="btns">
-            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Example Project 2 -->
-    <div class="box tilt mern">
-      <img src="assets/images/projects/portfolio.PNG" alt="Portfolio Website">
-      <div class="content">
-        <div class="tag">
-          <h3>Portfolio Website</h3>
-        </div>
-        <div class="desc">
-          <p>Personal portfolio website built with HTML, CSS, and JS.</p>
-          <div class="btns">
-            <a href="https://your-vercel-link.vercel.app" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="https://github.com/divyanshh22/Portfolio-Website-main" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
+  <div class="box-container"><!-- Projects will load here from JSON --></div>
 
   <div class="backbtn">
-    <a href="/#work" class="btn">
-      <i class="fas fa-arrow-left"></i>
-      <span>Back to Home</span>
+    <a href="../index.html#work" class="btn">
+        <i class="fas fa-arrow-left"></i>
+        <span>Back to Home</span>
     </a>
   </div>
 
@@ -102,45 +64,19 @@
 
 <!-- scroll top btn -->
 <a href="#work" class="fas fa-angle-up" id="scroll-top"></a>
-<!-- scroll back to top -->
 
-<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
-<!-- jquery cdn -->
+<!-- ==== JAVASCRIPT CDNS ==== -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
-
-<!-- vanilla tilt.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" crossorigin="anonymous"></script>
-
-<!-- scroll reveal -->
 <script src="https://unpkg.com/scrollreveal"></script>
-
-<!-- isotope filter plugin -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" crossorigin="anonymous"></script>
 
-<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
-
-<!-- Isotope filter init -->
-<script>
-  $(document).ready(function(){
-    var $grid = $('.box-container').isotope({
-      itemSelector: '.box',
-      layoutMode: 'fitRows'
-    });
-
-    $('.button-group').on('click', 'button', function(){
-      var filterValue = $(this).attr('data-filter');
-      $grid.isotope({ filter: filterValue });
-      $('.button-group button').removeClass('is-checked');
-      $(this).addClass('is-checked');
-    });
-  });
-</script>
-
-<!-- Your custom JS -->
-<script src="script.js"></script>
+<!-- Fixed script.js path -->
+<script src="./script.js"></script>
 
 </body>
 </html>
+
 
 
 
