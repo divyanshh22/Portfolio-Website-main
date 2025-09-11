@@ -52,8 +52,8 @@
     "icon": "https://img.icons8.com/color/48/git.png"
   },
   {
-    "name": "GitHub",
-    "icon": "https://img.icons8.com/material-outlined/48/github.png"
+     "name": "GitHub",
+     "icon": "https://img.icons8.com/ios-glyphs/48/ffffff/github.png"
   },
   {
     "name": "Django",
@@ -61,7 +61,7 @@
   },
   {
     "name": "Flask",
-    "icon": "https://img.icons8.com/ios-filled/48/flask.png"
+    "icon": "https://img.icons8.com/ios/48/ffffff/flask.png"
   },
   {
     "name": "Tkinter",
@@ -84,3 +84,4 @@
     "icon": "https://img.icons8.com/fluency/48/wordpress.png"
   }
 ]
+
