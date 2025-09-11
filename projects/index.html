@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Correct CSS path -->
-<link rel="stylesheet" href="./style.css">
-
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="./style.css" />
 
   <!-- Font Awesome -->
   <link rel="stylesheet"
@@ -15,66 +14,56 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- Favicon -->
-  <link id="favicon" rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-png">
+  <link id="favicon" rel="shortcut icon" href="../assets/images/favicon.png" type="image/png" />
 
   <title>Projects | Portfolio Divyansh Singh</title>
 </head>
 <body oncontextmenu="return false">
 
-<!-- navbar starts -->
-<header>
-  <a href="../index.html" class="logo"><i class="fab fa-node-js"></i> Divyansh</a>
-  <div id="menu" class="fas fa-bars"></div>
-  <nav class="navbar">
-    <ul>
-      <li><a href="../index.html#home">Home</a></li>
-      <li><a href="../index.html#about">About</a></li>
-      <li><a href="../index.html#skills">Skills</a></li>
-      <li><a href="../index.html#education">Education</a></li>
-      <li><a class="active" href="../index.html#work">Work</a></li>
-      <li><a href="../index.html#experience">Experience</a></li>
-      <li><a href="../index.html#contact">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-<!-- navbar ends -->
+  <!-- Navbar -->
+  <header>
+    <a href="../index.html" class="logo"><i class="fab fa-node-js"></i> Divyansh</a>
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="../index.html#home">Home</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#skills">Skills</a></li>
+        <li><a href="../index.html#education">Education</a></li>
+        <li><a class="active" href="../index.html#work">Work</a></li>
+        <li><a href="../index.html#experience">Experience</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<!-- work project section starts -->
-<section class="work" id="work">
+  <!-- Projects Section -->
+  <section class="work" id="work">
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+    <div id="filters" class="button-group">
+      <button class="btn is-checked" data-filter="*">All</button>
+      <button class="btn" data-filter=".mern">MERN</button>
+      <button class="btn" data-filter=".lamp">LAMP</button>
+      <button class="btn" data-filter=".gui">GUI</button>
+    </div>
+    <div class="box-container"><!-- Rendered dynamically --></div>
+    <div class="backbtn">
+      <a href="../index.html#work" class="btn">
+        <i class="fas fa-arrow-left"></i> <span>Back to Home</span>
+      </a>
+    </div>
+  </section>
 
-  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
-  
-  <div id="filters" class="button-group">
-    <button class="btn is-checked" data-filter="*">All Projects</button>
-    <button class="btn" data-filter=".mern">MERN Stack</button>
-    <button class="btn" data-filter=".lamp">LAMP Stack</button>
-    <button class="btn" data-filter=".gui">GUI</button>
-  </div>
+  <a href="#work" id="scroll-top" class="fas fa-angle-up"></a>
 
-  <div class="box-container"><!-- Projects will load here from JSON --></div>
+  <!-- JS Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" crossorigin="anonymous"></script>
 
-  <div class="backbtn">
-    <a href="../index.html#work" class="btn">
-        <i class="fas fa-arrow-left"></i>
-        <span>Back to Home</span>
-    </a>
-  </div>
-
-</section>
-<!-- work project section ends -->
-
-<!-- scroll top btn -->
-<a href="#work" class="fas fa-angle-up" id="scroll-top"></a>
-
-<!-- ==== JAVASCRIPT CDNS ==== -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/scrollreveal"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" crossorigin="anonymous"></script>
-
-<!-- Fixed script.js path -->
-<script src="./script.js"></script>
-
+  <!-- Custom Script -->
+  <script src="./script.js"></script>
 </body>
 </html>
 
