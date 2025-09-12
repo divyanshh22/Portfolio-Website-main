@@ -2,7 +2,7 @@
   {
     "name": "Resturant Management System",
     "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
-    "image": "notystackandroid.png",
+    "image": "notystackandroid",
     "category": "GUI",
     "links": {
       "view": "https://github.com/divyanshh22/Python/blob/main/Restaurant%20Billing%20Management%20System%20Using%20Python%20with%20Tkinter%20(Graphical%20User%20Interface)",
@@ -93,6 +93,7 @@
   }
 
 ]
+
 
 
 
