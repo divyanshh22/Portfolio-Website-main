@@ -24,14 +24,6 @@
     "icon": "https://img.icons8.com/color/48/css3.png"
   },
   {
-    "name": "React.js",
-    "icon": "https://img.icons8.com/ultraviolet/48/react--v1.png"
-  },
-  {
-    "name": "Node.js",
-    "icon": "https://img.icons8.com/fluency/48/node-js.png"
-  },
-  {
     "name": "Bootstrap",
     "icon": "https://img.icons8.com/color/48/bootstrap.png"
   },
@@ -66,10 +58,6 @@
   {
     "name": "Tkinter",
     "icon": "https://img.icons8.com/fluency/48/python.png"
-  },
-  {
-    "name": "OpenCV",
-    "icon": "https://img.icons8.com/color/48/opencv.png"
   },
   {
     "name": "VSCode",
