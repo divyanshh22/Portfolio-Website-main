@@ -29,15 +29,11 @@
   },
   {
     "name": "PostgreSQL",
-    "icon": "https://img.icons8.com/color/48/postgresql.png"
+    "icon": "https://cdn.simpleicons.org/postgresql/4169E1"
   },
   {
     "name": "SQLite",
     "icon": "https://img.icons8.com/ios-filled/48/4A90E2/sqlite.png"
-  },
-  {
-    "name": "Git",
-    "icon": "https://img.icons8.com/color/48/git.png"
   },
   {
     "name": "GitHub",
@@ -65,18 +61,10 @@
   },
   {
     "name": "FastAPI",
-    "icon": "https://img.icons8.com/fluency/48/FastAPI.png"
-  },
-  {
-    "name": "Jinja2",
-    "icon": "https://img.icons8.com/color/48/jinja.png"
+    "icon": "https://cdn.simpleicons.org/fastapi/009688"
   },
   {
     "name": "Vercel",
-    "icon": "https://img.icons8.com/fluency/48/vercel.png"
-  },
-  {
-    "name": "Render",
-    "icon": "https://img.icons8.com/color/48/render.png"
+    "icon": "https://cdn.simpleicons.org/vercel/ffffff"
   }
 ]
