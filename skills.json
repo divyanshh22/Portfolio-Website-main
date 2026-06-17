@@ -3,7 +3,6 @@
     "name": "Python",
     "icon": "https://img.icons8.com/fluency/48/python.png"
   },
-
   {
     "name": "Java",
     "icon": "https://img.icons8.com/color/48/java-coffee-cup-logo.png"
@@ -41,8 +40,8 @@
     "icon": "https://img.icons8.com/color/48/git.png"
   },
   {
-     "name": "GitHub",
-     "icon": "https://img.icons8.com/ios-glyphs/48/ffffff/github.png"
+    "name": "GitHub",
+    "icon": "https://img.icons8.com/ios-glyphs/48/ffffff/github.png"
   },
   {
     "name": "Django",
@@ -65,8 +64,19 @@
     "icon": "https://img.icons8.com/color/48/pycharm.png"
   },
   {
-    "name": "FasyAPI",
+    "name": "FastAPI",
     "icon": "https://img.icons8.com/fluency/48/FastAPI.png"
+  },
+  {
+    "name": "Jinja2",
+    "icon": "https://img.icons8.com/color/48/jinja.png"
+  },
+  {
+    "name": "Vercel",
+    "icon": "https://img.icons8.com/fluency/48/vercel.png"
+  },
+  {
+    "name": "Render",
+    "icon": "https://img.icons8.com/color/48/render.png"
   }
 ]
-
