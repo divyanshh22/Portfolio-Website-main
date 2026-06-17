@@ -29,7 +29,7 @@
   },
   {
     "name": "PostgreSQL",
-    "icon": "https://img.icons8.com/color/48/postgresql.png"
+    "icon": "https://cdn.simpleicons.org/postgresql/4169E1"
   },
   {
     "name": "SQLite",
@@ -65,11 +65,11 @@
   },
   {
     "name": "FastAPI",
-    "icon": "https://img.icons8.com/fluency/48/FastAPI.png"
+    "icon": "https://cdn.simpleicons.org/fastapi/009688"
   },
   {
     "name": "Jinja2",
-    "icon": "https://img.icons8.com/color/48/jinja.png"
+    "icon": "https://cdn.simpleicons.org/jinja/B41717"
   },
   {
     "name": "Vercel",
